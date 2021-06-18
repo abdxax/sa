@@ -1,0 +1,129 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&family=Mirza&display=swap" rel="stylesheet">
+    <style>
+        body {
+            height: 100%;
+            width: 100%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6, p {
+            font-family: 'Mirza', cursive;
+           
+        }
+
+        p{
+            margin:10px;
+            font-size:25px;
+        }
+
+        .mn{
+            margin-top:20px;
+        }
+        .logs_left{
+            width: 90%;
+            margin-left: 25%;
+        }
+        .btn-login{
+            background-color: #4c704c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="row">
+        <div class="col-md-6 bas">
+            <img src="log3.jpeg" class="logs_left"/>
+        </div>
+
+        <div class="col-md-6 ">
+           
+            <form class="mx-auto">
+                <div class="col-md-6 mn">
+                    <img src="sad.png" width="250px" />
+
+                  <p> </p>
+                </div>
+                <div class="form-group text-center">
+                    <div class="col-md-6">
+                        <input type="text" name="phone" placeholder="الرقم العام" class="form-control text-center" />
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <div class="col-md-6">
+                        <input type="password" name="password" placeholder="كلمة المرور " class="form-control text-center" />
+                    </div>
+
+                </div>
+
+                <div class="form-group ">
+                    <div class="col-md-6 text-right"> 
+                        <a href="#" >استعادة كلمة المرور </a>
+                    </div>
+
+                </div>
+
+                <div class="form-group text-center">
+                    <div class="col-md-6">
+                        <a href="#"  class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">تسجيل جديد</a>
+                        
+                       <!--- <input type="submit" class="btn btn-info" value="تسجيل جديد " />-->
+                        <input type="submit" class="btn btn-login" value="تسجيل دخول " />
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+
+   <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content ">
+        <div class="modal-header d-block ">
+          <h5 class="modal-title text-center" id="exampleModalLongTitle">تسجيل جديد</h5>
+         
+        </div>
+        <div class="modal-body">
+          <form class=" mx-auto">
+              <div class="col-md-12">
+                <div class="form-group text-center">
+                    <input type="text" class="form-control text-center" placeholder="الرقم العام">
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group text-center">
+                    <input type="text" class="form-control text-center" placeholder="كلمة المرور">
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group text-center">
+                    <input type="text" class="form-control text-center" placeholder="تاكيد كلمة المرور ">
+                </div>
+              </div>
+          </form>
+        </div>
+        <div class="modal-footer ">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+          <button type="button" class="btn btn-primary">تسجيل</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end model -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
